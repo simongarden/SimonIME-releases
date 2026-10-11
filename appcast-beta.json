@@ -5,18 +5,18 @@
   "channel": "beta",
   "latest": {
     "version": "0.5.0",
-    "build": 57,
+    "build": 58,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-57/SimonIME-0.5.0-57.zip",
-    "sha256": "c4d8116496670a3698fb7f88db9159ffc619e6dccad5baf9d452845fde21d5c8",
-    "size": 7067321,
-    "edSignature": "E/p93XQerfy6Qf5MVAKL6BxQR427WG1GRJ7S+MoG78th3dpFPIn6h0UEkT2SNcjAzrwJ0mbWF82YogXViJ6tBQ==",
-    "notes": "Simon輸入法 0.5.0（build 57）\n- 大易：Shift 符號與大寫字母不再被吞掉。組字中（尚未按空白查字）會先保留已打的按鍵再輸出符號；選字清單開啟時會先送出第一個候選字再輸出符號。\n- 新增「全形英數標點」選項（輸入法選單，打勾表示開啟）。\n- 輸入法選單的選項改以打勾顯示開關狀態。\n- 匯入或還原字根檔、變更設定後，下一個字起即生效，不必切換輸入法。\n- 修正候選清單偶爾顯示舊內容的問題。\n- 安裝程式：已安裝的版本損毀時也能直接重新安裝；啟用輸入法時顯示進度。\n- 更新：更新資訊整筆簽章驗證、只接受官方下載位址、下載超過預期大小立即停止。",
-    "releaseDate": "2026-10-11",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-58/SimonIME-0.5.0-58.zip",
+    "sha256": "e5347799354564130b59add69760aed5f09e584f45361f21d0b0d40ef5fc5f73",
+    "size": 7067120,
+    "edSignature": "CVEQbdtDSGf9LiYePY0c4AhaQeHB7+D2thL/+9ucKiN6BswywxBHIW+3KZZjuuK66D74XOGoyC8bxaQFqazUAw==",
+    "notes": "Simon輸入法 0.5.0 (58)\n- 安裝程式、設定視窗與更新視窗的版本一律顯示為「0.5.0 (58)」（版本與 build）。",
+    "releaseDate": "2026-10-12",
     "critical": false,
-    "entrySignature": "R0M1lFldI9SjYkgKkLDpYFKO3dWrFXOzQOXbdj+3lbZwJlIpl+/Hn3x87mi3oXX2bB/GnoQCfnQPAn8fzAypBg=="
+    "entrySignature": "vTj/b8TJ+I5LtR0X/+Zhw7IFNZMtNjFV73hC39k/p2KDtncv1s/Jh3HbVFTPCsOj9NA0RghanZY06+0qXKVPCA=="
   }
 }
