@@ -3,5 +3,19 @@
   "product": "Simon輸入法",
   "bundleIdentifier": "org.formosa.inputmethod.dayi",
   "channel": "beta",
-  "latest": null
+  "latest": {
+    "version": "0.5.0",
+    "build": 56,
+    "minOS": "13.0",
+    "arch": [
+      "arm64"
+    ],
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-56/SimonIME-0.5.0-56.zip",
+    "sha256": "484ea8b90ebd46d179bf9cffcaf1162f4b04705c736768aea8a3fd21400afc31",
+    "size": 7051428,
+    "edSignature": "H+M8w+EUtfA8O38D8ZElQYfiN8qpkDLoulAEYsBnC/ttfmSWaEVgcPNfQeAwExducqW1UaE6DZ3KNiD6Jq+iCQ==",
+    "notes": "Simon輸入法 0.5.0（build 56）：檔名改為 ASCII，修正部分解壓縮工具顯示「已損毀」；改以 dmg 發行。",
+    "releaseDate": "2026-10-11",
+    "critical": false
+  }
 }
