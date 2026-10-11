@@ -5,17 +5,18 @@
   "channel": "beta",
   "latest": {
     "version": "0.5.0",
-    "build": 56,
+    "build": 57,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-56/SimonIME-0.5.0-56.zip",
-    "sha256": "484ea8b90ebd46d179bf9cffcaf1162f4b04705c736768aea8a3fd21400afc31",
-    "size": 7051428,
-    "edSignature": "H+M8w+EUtfA8O38D8ZElQYfiN8qpkDLoulAEYsBnC/ttfmSWaEVgcPNfQeAwExducqW1UaE6DZ3KNiD6Jq+iCQ==",
-    "notes": "Simon輸入法 0.5.0（build 56）：檔名改為 ASCII，修正部分解壓縮工具顯示「已損毀」；改以 dmg 發行。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-57/SimonIME-0.5.0-57.zip",
+    "sha256": "c4d8116496670a3698fb7f88db9159ffc619e6dccad5baf9d452845fde21d5c8",
+    "size": 7067321,
+    "edSignature": "E/p93XQerfy6Qf5MVAKL6BxQR427WG1GRJ7S+MoG78th3dpFPIn6h0UEkT2SNcjAzrwJ0mbWF82YogXViJ6tBQ==",
+    "notes": "Simon輸入法 0.5.0（build 57）\n- 大易：Shift 符號與大寫字母不再被吞掉。組字中（尚未按空白查字）會先保留已打的按鍵再輸出符號；選字清單開啟時會先送出第一個候選字再輸出符號。\n- 新增「全形英數標點」選項（輸入法選單，打勾表示開啟）。\n- 輸入法選單的選項改以打勾顯示開關狀態。\n- 匯入或還原字根檔、變更設定後，下一個字起即生效，不必切換輸入法。\n- 修正候選清單偶爾顯示舊內容的問題。\n- 安裝程式：已安裝的版本損毀時也能直接重新安裝；啟用輸入法時顯示進度。\n- 更新：更新資訊整筆簽章驗證、只接受官方下載位址、下載超過預期大小立即停止。",
     "releaseDate": "2026-10-11",
-    "critical": false
+    "critical": false,
+    "entrySignature": "R0M1lFldI9SjYkgKkLDpYFKO3dWrFXOzQOXbdj+3lbZwJlIpl+/Hn3x87mi3oXX2bB/GnoQCfnQPAn8fzAypBg=="
   }
 }
