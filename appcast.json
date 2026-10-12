@@ -5,18 +5,18 @@
   "channel": "stable",
   "latest": {
     "version": "0.5.0",
-    "build": 59,
+    "build": 60,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-59/SimonIME-0.5.0-59.zip",
-    "sha256": "648b3e375a1b38813351495647485c8926dcb2efedd8d0981f3440cc5c53d819",
-    "size": 7072244,
-    "edSignature": "s2Jgct4EgrObUUkdgTAe4AXAv/ehXsVWFsIq8GfCShHenmMn+FCYXW2j7/b6B4vib+iI4MvOi/LG3hUqGX6IDg==",
-    "notes": "重要：從 0.5.0 (58) 或更早的版本更新後，若打不出字，請打開一次 Simon輸入法：在 Finder 選「前往 → 前往檔案夾…」，輸入 ~/Library/Input Methods，按兩下「Simon輸入法」（或在終端機執行 open ~/Library/Input\\ Methods/SimonIME.app）。舊版的更新程式裝好新版後不會啟動它，只需要做這一次。\n\n修正：安裝、App 內更新與「回復上一版」之後會立即啟動新版輸入法並確認它在執行（先前更新後可能沒有輸入法程序在執行，導致無法輸入，需登出或手動打開才恢復）。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-60/SimonIME-0.5.0-60.zip",
+    "sha256": "be378ab3d0d1422a5c4f4da8d0479743208fe69e9089f00af108850d04c4afaf",
+    "size": 7074783,
+    "edSignature": "KWW6i+cvXBePAtkjA+Qb+LJs7QeIFz3c1umuvw6jVF+E6ZZwCbX/9yd6PrsKJJGXb3y8/JklW3O5APRPJfQ9BA==",
+    "notes": "修正：在部分程式（例如終端機中的 Claude Code、Claude App、Welly）切換視窗或開新視窗後，有時只能打出英數字、大易無法組字。現在第一個按鍵就會啟用大易。\n\n其他：程式放棄組字時清除未完成的字根；多螢幕時候選字視窗顯示在正確的螢幕。\n\n提醒：從 0.5.0 (58) 或更早版本更新後，若打不出字，請在 Finder 選「前往 → 前往檔案夾…」輸入 ~/Library/Input Methods，按兩下「Simon輸入法」一次。",
     "releaseDate": "2026-10-12",
     "critical": false,
-    "entrySignature": "LXkxD8+98msw8Rfj8j4ri8WcCDdGHyMCi9mymvRHpQ9J9xo7Uh35MwV+3+YXG1Cb+wTTVJ4k58dO/t5ql/O9Aw=="
+    "entrySignature": "NQMpDWKkrftXyCeNtjr84GdQpBL+oTnnwargD/fWN2fYINN817tA1rG1ibwHKopiKY83tvj9ae5yyLFG0SDoBQ=="
   }
 }
