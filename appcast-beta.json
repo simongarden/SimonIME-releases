@@ -5,18 +5,18 @@
   "channel": "beta",
   "latest": {
     "version": "0.5.0",
-    "build": 61,
+    "build": 62,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-61/SimonIME-0.5.0-61.zip",
-    "sha256": "9cbf8d12c0b636ebe8288a91403a884d9980fad3ede60e0d473ede722dc070c4",
-    "size": 7082948,
-    "edSignature": "IBE1LHYy3Eg2Kzu86EbWWXAdMaeCzqo5wrYFpOT8Yuxl6Y2wy1ERpJ6uYwK2RjUlVo8oNXsqgH9XnCBN4WsNCQ==",
-    "notes": "新功能：注音改用傳統數字鍵選字。候選清單開啟時，主鍵區或數字鍵盤的 1–9、0 選第 1–10 個字，空白鍵選第一個字（不再沿用大易的選字設定）。\n\n修正：\n- 在部分程式（例如終端機中的 Claude Code、Claude App、Welly）切換視窗或開新視窗後，有時只能打出英數字、大易無法組字。現在第一個按鍵就會啟用大易。\n- 開啟繁簡轉換或注音查詢時，候選清單開著就切換 App、按 ⌘ 快捷鍵或開 Caps Lock 所送出的字，現在也會轉換。\n- 程式放棄組字時清除未完成的字根；多螢幕時候選字視窗顯示在正確的螢幕。\n- 設定視窗切換到前景時不再重新讀取未變更的字根檔。\n\n提醒：從 0.5.0 (58) 或更早版本更新後，若打不出字，請在 Finder 選「前往 → 前往檔案夾…」輸入 ~/Library/Input Methods，按兩下「Simon輸入法」一次。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-62/SimonIME-0.5.0-62.zip",
+    "sha256": "d1e9782be2d8b43a7d1d131a686352d8b2141f52406a4328045faaa5ce5821b2",
+    "size": 7081132,
+    "edSignature": "6UST0tRk4AN4Na8SrPKFzw4jcvKhqIKoUPXB/xS160wWb7rB6HSzPK0eoL4eRyHF13bdtt0i1iac1hehMPnqAw==",
+    "notes": "改進：大易同一字根的候選字改為常用字在前、少用字在後，例如「amf」為 佣／傭／倜／傕／僿。罕用字與符號維持原本的順序。\n\n提醒：若曾在「輸入法設定 → 字根檔」匯入自訂字根檔，輸入法會繼續使用該檔案的順序；要改用新排序，請在設定中選「改用隨附字根檔」。",
     "releaseDate": "2026-10-13",
     "critical": false,
-    "entrySignature": "M/RhVtb9g8mtFY2dKPrkxUBwx/6l7Oxptv1ahfShWY4Qu9KGuWMvHXVaqCQVDTLZR1o+3o0KNklW/M2fONyfDg=="
+    "entrySignature": "0BvTE1jYDQ1SDy67Z7P2SqC3Yi8bhwE3cOIjCP3pQX2ZvkeHan69g9kARnGmCc9E31AEMYdgRy3Jtg6aFejgAw=="
   }
 }
