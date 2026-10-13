@@ -5,18 +5,18 @@
   "channel": "beta",
   "latest": {
     "version": "0.5.0",
-    "build": 64,
+    "build": 65,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-64/SimonIME-0.5.0-64.zip",
-    "sha256": "beff1b4b14384efb536769b8d7d00c4247fc105939ed1957de5a45c5a1384ce1",
-    "size": 7077208,
-    "edSignature": "QOOrxpp2gGCLH2DMpBMStVW2QIO6VT5v2aS4FHPAOe1951SaBXTX12WslzByQmkzt3drmyYo2OX0kehPXZ/fBw==",
-    "notes": "改進：大易候選字改為「標準字根」的字在前、「簡打」的字在後，兩組各依常用程度排序。例如「aso」為 舍／估／佑／做／僅…（「做」的標準字根是 asox），「tte5」為 幾／畿。\n\n移除：字根表中的 5 碼字根（標準大易沒有 5 碼，例如「1tt//」等查字群組）。\n\n注意：部分常用字的簡碼不再是第一個候選字，例如「k.」的「就」、「eg」的「於」改為第二個。\n\n提醒：若曾在「輸入法設定 → 字根檔」匯入自訂字根檔，輸入法會繼續使用該檔案的順序；要改用新排序，請在設定中選「改用隨附字根檔」。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-65/SimonIME-0.5.0-65.zip",
+    "sha256": "9f0c17facc08817b76063f04179b7538e8dad8f6668b11a617a68570d7d082b2",
+    "size": 7076937,
+    "edSignature": "xZsPdlnAyz3huZ8K5DzwJ6mexe8yGiU7nlhJv7hV6HeTL/BY72o9Ee/93F3T8HPIDPZQq1mSkYeY4QKcdoKHCA==",
+    "notes": "改進：大易候選字改為四級排序——常用字的標準字根、常用字的簡打、不常用字的標準字根、不常用字的簡打，各級依常用程度排列。常用字不再被少用字擠到後面，例如「;c」為 能／螰／虯、「k.」為 就／祊、「h」為 鳥／戶／尸／厂、「aso」為 舍／估／佑／做／僅。\n\n提醒：若曾在「輸入法設定 → 字根檔」匯入自訂字根檔，輸入法會繼續使用該檔案的順序；要改用新排序，請在設定中選「改用隨附字根檔」。",
     "releaseDate": "2026-10-13",
     "critical": false,
-    "entrySignature": "mO30NMdpprezjVDxUkkzQQSky2U6N7oQv+ckIhVdS+goH/Rjix8bEthN9MujRiY8/nTHmKkLnwITHnlwZG9WBw=="
+    "entrySignature": "Q/7Eqi0SBcSBEVXOuAyhi70Wy7EyuUw8A3D2n2NC0XhoPDvUz+EeNeEYOlIzpZb69Fx+25La+PHCjQjUnm8ZCQ=="
   }
 }
