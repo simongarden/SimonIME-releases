@@ -5,18 +5,18 @@
   "channel": "stable",
   "latest": {
     "version": "0.5.0",
-    "build": 65,
+    "build": 66,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-65/SimonIME-0.5.0-65.zip",
-    "sha256": "9f0c17facc08817b76063f04179b7538e8dad8f6668b11a617a68570d7d082b2",
-    "size": 7076937,
-    "edSignature": "xZsPdlnAyz3huZ8K5DzwJ6mexe8yGiU7nlhJv7hV6HeTL/BY72o9Ee/93F3T8HPIDPZQq1mSkYeY4QKcdoKHCA==",
-    "notes": "改進：大易候選字改為四級排序——常用字的標準字根、常用字的簡打、不常用字的標準字根、不常用字的簡打，各級依常用程度排列。常用字不再被少用字擠到後面，例如「;c」為 能／螰／虯、「k.」為 就／祊、「h」為 鳥／戶／尸／厂、「aso」為 舍／估／佑／做／僅。\n\n提醒：若曾在「輸入法設定 → 字根檔」匯入自訂字根檔，輸入法會繼續使用該檔案的順序；要改用新排序，請在設定中選「改用隨附字根檔」。",
-    "releaseDate": "2026-10-13",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-66/SimonIME-0.5.0-66.zip",
+    "sha256": "325cb769b30775223ca8e39d7a6d56328dba786b61211d72f113dff2c6d573a5",
+    "size": 7076946,
+    "edSignature": "ykekrxfJomshbLqxZVtqIc4mu6oGOF3KLTjfb2nLx2fbHfMgwBBPsgEbnZkIwkqBNyYCwbhus+F8QeXjwehGBw==",
+    "notes": "## 摘要\n- 鍵上的字根字（戶 `h`、士 `f`、身 `p`、魚 `n`…）以單鍵為標準字根，`hm`、`fm` 等只是區分碼；「蟲」（`;;;`）與標點鍵上的字（號、路、街、巷、鄉、鎮）仍為簡打。\n- `h` 由「鳥/戶/尸/厂」改為「戶/鳥/尸/厂」。\n- 與 build 65 相比只有 9 個單鍵字根排序改變：`h` `f` `p` `n` `9` `c` `q` `s` `v`。\n- 版本 build 66。\n\n## 測試\n- `test.command` 全部通過（含 `sort_dayi.py --check`）。\n- EngineTests 新增 `h`、`f`、`;` 驗證；`aso`、`;c`、`cz`、`amf`、`tte5` 等既有驗證不變。",
+    "releaseDate": "2026-10-14",
     "critical": false,
-    "entrySignature": "Q/7Eqi0SBcSBEVXOuAyhi70Wy7EyuUw8A3D2n2NC0XhoPDvUz+EeNeEYOlIzpZb69Fx+25La+PHCjQjUnm8ZCQ=="
+    "entrySignature": "ymkqXZp2rrpaxgOjs5sSvTTcnYUbz4cFCh0t2VTJkcSL4QdNJ9PMx0h0DuNaCwZbZwV7R6ip7Xg2gaHzkHSRCg=="
   }
 }
