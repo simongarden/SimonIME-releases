@@ -5,18 +5,18 @@
   "channel": "stable",
   "latest": {
     "version": "0.5.0",
-    "build": 67,
+    "build": 68,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-67/SimonIME-0.5.0-67.zip",
-    "sha256": "5a39247cef96c92e01bad45bc19d41bfe41a8715d1550030c6e32a8f1adb5f83",
-    "size": 3192946,
-    "edSignature": "Fy+rT3LjHiXvPN/Kp1Aem0PMs87V9BurRcdm610qPLbRnSACGwam/ZcD8HbPlbF5mDHgOmVAEU+yh3R7OZpkCQ==",
-    "notes": "- 新圖示「摺帶 S」：App 圖示、設定視窗「關於」圖示與選單列圖示全部換新。\n- App 圖示符合 macOS 圓角樣板，舊版 macOS 也會顯示圓角。\n- 選單列圖示為單色 template，自動配合淺色、深色選單列。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-68/SAGAIME-0.5.0-68.zip",
+    "sha256": "bc058a0598973abb40bc750916df7b208c1c85a08d18f2d3654fae18203ac367",
+    "size": 3193287,
+    "edSignature": "JVzXyHNHkhFejQCx0bpwTVIpnPR2tHSWZwanwugz5mb6OU3/pAR2kNVz4Ve85tlGYTorTScmldn4oz/aLcimCg==",
+    "notes": "- 產品名稱改為「SAGA 輸入法」：輸入法選單、系統設定、Finder、安裝程式與設定視窗皆顯示新名稱。\n- 已安裝的使用者照常自動更新，不需重新加入輸入法。\n- 系統設定的輸入法清單若仍顯示舊名稱，登出再登入一次即會更新。",
     "releaseDate": "2026-10-14",
     "critical": false,
-    "entrySignature": "eeyfEjfuAs6SE7WbdL5Lpuu2VLTzCmCqMhWEFAeyPBrjfXxJREiIquN/L4Khq2M4TPwPIlPhcG7eyOsT5mQTCQ=="
+    "entrySignature": "21WrBYlvkxx1lDiuKP2cagpZjj+o9H9mBtevaNUvjNf+cvL+x5/UJPZ2/Xob6bdKQzrlZbmuTmtda0zKTQZvAQ=="
   }
 }
