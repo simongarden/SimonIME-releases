@@ -5,18 +5,18 @@
   "channel": "beta",
   "latest": {
     "version": "0.5.0",
-    "build": 66,
+    "build": 67,
     "minOS": "13.0",
     "arch": [
       "arm64"
     ],
-    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-66/SimonIME-0.5.0-66.zip",
-    "sha256": "325cb769b30775223ca8e39d7a6d56328dba786b61211d72f113dff2c6d573a5",
-    "size": 7076946,
-    "edSignature": "ykekrxfJomshbLqxZVtqIc4mu6oGOF3KLTjfb2nLx2fbHfMgwBBPsgEbnZkIwkqBNyYCwbhus+F8QeXjwehGBw==",
-    "notes": "## 摘要\n- 鍵上的字根字（戶 `h`、士 `f`、身 `p`、魚 `n`…）以單鍵為標準字根，`hm`、`fm` 等只是區分碼；「蟲」（`;;;`）與標點鍵上的字（號、路、街、巷、鄉、鎮）仍為簡打。\n- `h` 由「鳥/戶/尸/厂」改為「戶/鳥/尸/厂」。\n- 與 build 65 相比只有 9 個單鍵字根排序改變：`h` `f` `p` `n` `9` `c` `q` `s` `v`。\n- 版本 build 66。\n\n## 測試\n- `test.command` 全部通過（含 `sort_dayi.py --check`）。\n- EngineTests 新增 `h`、`f`、`;` 驗證；`aso`、`;c`、`cz`、`amf`、`tte5` 等既有驗證不變。",
+    "url": "https://github.com/simongarden/SimonIME-releases/releases/download/v0.5.0-67/SimonIME-0.5.0-67.zip",
+    "sha256": "5a39247cef96c92e01bad45bc19d41bfe41a8715d1550030c6e32a8f1adb5f83",
+    "size": 3192946,
+    "edSignature": "Fy+rT3LjHiXvPN/Kp1Aem0PMs87V9BurRcdm610qPLbRnSACGwam/ZcD8HbPlbF5mDHgOmVAEU+yh3R7OZpkCQ==",
+    "notes": "- 新圖示「摺帶 S」：App 圖示、設定視窗「關於」圖示與選單列圖示全部換新。\n- App 圖示符合 macOS 圓角樣板，舊版 macOS 也會顯示圓角。\n- 選單列圖示為單色 template，自動配合淺色、深色選單列。",
     "releaseDate": "2026-10-14",
     "critical": false,
-    "entrySignature": "ymkqXZp2rrpaxgOjs5sSvTTcnYUbz4cFCh0t2VTJkcSL4QdNJ9PMx0h0DuNaCwZbZwV7R6ip7Xg2gaHzkHSRCg=="
+    "entrySignature": "eeyfEjfuAs6SE7WbdL5Lpuu2VLTzCmCqMhWEFAeyPBrjfXxJREiIquN/L4Khq2M4TPwPIlPhcG7eyOsT5mQTCQ=="
   }
 }
